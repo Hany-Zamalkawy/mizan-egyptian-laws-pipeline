@@ -1,0 +1,296 @@
+{
+  "catalog_version": "1.0",
+  "updated_on": "2026-11-11",
+  "selection_policy": "Prefer Egyptian government portals and the Official Gazette for primary texts. Use Manshurat as a legal-document index or secondary mirror only when an official text is unavailable; preserve the issuing authority and publication reference.",
+  "sources": [
+    {
+      "source_id": "moie_traffic_portal",
+      "name_ar": "بوابة مرور مصر - وزارة الداخلية",
+      "organization_ar": "وزارة الداخلية المصرية",
+      "url": "https://traffic.moi.gov.eg/Arabic/OurServices/InfoServices/TrafficLaw/Pages/traffic-control-in-public-roads.aspx",
+      "source_tier": "primary_government",
+      "coverage": "قانون المرور رقم 66 لسنة 1973، مواد القانون، قواعد المرور، الخدمات والأسئلة الشائعة",
+      "notes": "بوابة حكومية تعرض نصوص مواد وخدمات مرورية؛ راجع التعديلات واللائحة التنفيذية قبل اعتماد العقوبات أو الشروط الإجرائية."
+    },
+    {
+      "source_id": "consumer_protection_authority",
+      "name_ar": "جهاز حماية المستهلك - التشريعات والإرشادات والشكاوى",
+      "organization_ar": "جهاز حماية المستهلك المصري",
+      "url": "https://cpa.gov.eg/ar-eg/%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D8%A7%D8%AA",
+      "source_tier": "primary_government_authority",
+      "coverage": "قانون حماية المستهلك رقم 181 لسنة 2018، الأسئلة الشائعة، وسياسة الشكاوى والاستبدال والاسترجاع",
+      "notes": "افصل بين نص القانون وبين إرشادات الجهاز، وسجل الاستثناءات وشروط كل مسار."
+    },
+    {
+      "source_id": "labor_law_14_2025_gazette_copy",
+      "name_ar": "قانون العمل رقم 14 لسنة 2025 - نسخة الجريدة الرسمية",
+      "organization_ar": "مصلحة الضرائب المصرية (مستضيف رسمي لنسخة القانون)",
+      "url": "https://portal.eta.gov.eg/sites/default/files/2026-03/law.no_.14.of_.2025.pdf",
+      "source_tier": "official_gazette_copy",
+      "coverage": "النص الكامل لقانون العمل رقم 14 لسنة 2025، الجريدة الرسمية العدد 18 تابع بتاريخ 3 مايو 2025",
+      "notes": "مواد ساعات العمل والراحة قد تقيدها استثناءات أو قرارات تنفيذية؛ سجل رقم المادة ونص الاستثناء معًا."
+    },
+    {
+      "source_id": "rent_law_165_2025",
+      "name_ar": "القانون رقم 165 لسنة 2025 - المطابع الأميرية",
+      "organization_ar": "الهيئة العامة لشئون المطابع الأميرية",
+      "url": "https://alamiria.com/Sec/TashTxt?id=PQXvLW52gd8%3D",
+      "source_tier": "official_legislation_portal",
+      "coverage": "تعديل القانون رقم 4 لسنة 1996 وإضافة المادة الثانية مكررًا بشأن انتهاء عقد الإيجار وأمر الإخلاء",
+      "notes": "يقرأ مع عقد الإيجار والقانون 4 لسنة 1996 والقانون 164 لسنة 2025 بحسب نطاق الحالة."
+    },
+    {
+      "source_id": "alamiria_gazette",
+      "name_ar": "الهيئة العامة لشئون المطابع الأميرية - الجريدة الرسمية والوقائع المصرية",
+      "organization_ar": "الهيئة العامة لشئون المطابع الأميرية",
+      "url": "https://alamiria.com/Sec/Home",
+      "source_tier": "official_publication",
+      "coverage": "النشر الرسمي للقوانين والقرارات وأعداد الجريدة الرسمية والوقائع المصرية",
+      "notes": "اعتمد نسخة العدد الرسمي عند توفرها، وسجل رقم العدد وتاريخه وصفحته في بيانات كل نص."
+    },
+    {
+      "source_id": "criminal_procedure_174_2025_official_copy",
+      "name_ar": "قانون الإجراءات الجنائية رقم 174 لسنة 2025 - نسخة الجريدة الرسمية لدى وزارة العدل",
+      "organization_ar": "وزارة العدل المصرية",
+      "url": "https://moj.gov.eg/backend/api/documents/download/20F3150C-29F1-487E-A0F0-FCCE10CB207B",
+      "source_tier": "official_gazette_copy",
+      "coverage": "قانون الإجراءات الجنائية رقم 174 لسنة 2025، المنشور بالجريدة الرسمية العدد 45 مكرر (د) بتاريخ 12 نوفمبر 2025",
+      "notes": "اقرأ مع القانون 160 لسنة 2026 المنشور على المطابع الأميرية؛ عُدّل موعد النفاذ إلى 1 أكتوبر 2027."
+    },
+    {
+      "source_id": "investment_legislation_portal",
+      "name_ar": "بوابة التشريعات - وزارة الاستثمار والتجارة الخارجية",
+      "organization_ar": "وزارة الاستثمار والتجارة الخارجية",
+      "url": "https://www.mift.gov.eg/legislation/index",
+      "source_tier": "government_portal",
+      "coverage": "تشريعات الاستثمار والتجارة الخارجية",
+      "notes": "مصدر حكومي موضوعي جيد للقوانين والقرارات في نطاق الوزارة؛ تحقق من نص الجريدة الرسمية عند استخدامه كمصدر ملزم."
+    },
+    {
+      "source_id": "moj_portal",
+      "name_ar": "بوابة وزارة العدل المصرية",
+      "organization_ar": "وزارة العدل المصرية",
+      "url": "https://moj.gov.eg/",
+      "source_tier": "government_portal",
+      "coverage": "الخدمات القضائية والعدلية والمعلومات القانونية وروابط الجهات القضائية",
+      "notes": "لإرشاد المستخدم إلى الخدمات الرسمية؛ لا تعامل الأخبار أو صفحات الخدمة كنص تشريعي."
+    },
+    {
+      "source_id": "manshurat_labor_14_2025",
+      "name_ar": "قانون العمل رقم 14 لسنة 2025 - منشورات قانونية",
+      "organization_ar": "منشورات قانونية (مستودع تشريعي غير حكومي)",
+      "url": "https://temp.manshurat.org/content/qnwn-lml-ljdyd-rqm-14-lsn-2025",
+      "source_tier": "secondary_legal_repository",
+      "coverage": "نسخة قانون العمل رقم 14 لسنة 2025 وبيانات النشر والتطبيق",
+      "notes": "مصدر مساعد للوصول للنص؛ طابق المواد مع عدد الجريدة الرسمية قبل نشر إجابة موضوعية. القانون يبدأ العمل به في 1 سبتمبر 2025 بحسب بيانات الصفحة."
+    },
+    {
+      "source_id": "manshurat_personal_status_25_1929",
+      "name_ar": "قانون الأحوال الشخصية رقم 25 لسنة 1929 - منشورات قانونية",
+      "organization_ar": "منشورات قانونية (مستودع تشريعي غير حكومي)",
+      "url": "https://manshurat.org/node/12369",
+      "source_tier": "secondary_legal_repository",
+      "coverage": "قانون الأحوال الشخصية رقم 25 لسنة 1929 وتعديلاته",
+      "notes": "حالة الوثيقة في المستودع: معدل. لا تستخدم نسخة منفردة دون جمع التعديلات ذات الصلة والتحقق من النص النافذ."
+    },
+    {
+      "source_id": "idsc_law_copies",
+      "name_ar": "مركز المعلومات ودعم اتخاذ القرار - نسخ قوانين مصرية",
+      "organization_ar": "مركز المعلومات ودعم اتخاذ القرار بمجلس الوزراء",
+      "url": "https://idsc.gov.eg/upload/DocumentLibrary/AttachmentA/10385/5.pdf",
+      "source_tier": "government_hosted_copy",
+      "coverage": "نسخة قانون حماية البيانات الشخصية رقم 151 لسنة 2020؛ وتوجد نسخة أخرى لقانون التأمينات رقم 148 لسنة 2019",
+      "notes": "نسخ قوانين مستضافة على موقع جهة حكومية، لكن يلزم مطابقة نصوصها مع أعداد الجريدة الرسمية والتعديلات اللاحقة."
+    },
+    {
+      "source_id": "sis_official_gazette_index",
+      "name_ar": "أرشيف الجريدة الرسمية عبر الهيئة العامة للاستعلامات",
+      "organization_ar": "الهيئة العامة للاستعلامات - مستودع وثائق الجريدة الرسمية",
+      "url": "https://mediadr.sis.gov.eg/handle/123456789/49361",
+      "source_tier": "official_gazette_repository",
+      "coverage": "بيانات أعداد الجريدة الرسمية ونسخ قوانين التعديل، ومنها القانون 186 لسنة 2023 المعدل لقانون الطفل",
+      "notes": "استخدم ملف الجريدة الرسمي للتحقق من النص الحرفي، وسجل العدد والتاريخ لكل تعديل."
+    },
+    {
+      "source_id": "family_procedure_lawhub",
+      "name_ar": "قانون الأحوال الشخصية الإجرائي وقانون محاكم الأسرة - LawHub",
+      "organization_ar": "مستودع تشريعي غير حكومي",
+      "url": "https://lawhub.info/eg/?p=11675",
+      "source_tier": "secondary_legal_repository",
+      "coverage": "قانون إنشاء محاكم الأسرة 10 لسنة 2004، ومنصة قانونية مساعدة للوصول للنصوص",
+      "notes": "تحقق من الجريدة الرسمية والتعديلات والسوابق قبل تقديم تعليمات إجرائية."
+    },
+    {
+      "source_id": "manshurat_current_laws",
+      "name_ar": "منشورات قانونية - نصوص تشريعات وأحكام منشورة",
+      "organization_ar": "منشورات قانونية (مستودع غير حكومي)",
+      "url": "https://manshurat.org/node/31487",
+      "source_tier": "secondary_legal_repository",
+      "coverage": "قانون تقنية المعلومات 175 لسنة 2018، قانون البناء 119 لسنة 2008، الأحوال المدنية 143 لسنة 1994، وأحكام قضائية منشورة",
+      "notes": "مصدر بحثي ثانوي. النصوص قد تكون معدلة؛ طابق كل مادة مع الجريدة الرسمية واللائحة والقرارات اللاحقة."
+    },
+    {
+      "source_id": "mksegypt_law_archive",
+      "name_ar": "مكتبة قوانين مصر - MKSEgypt",
+      "organization_ar": "قاعدة قانونية غير حكومية",
+      "url": "https://mksegypt.org/ar/laws/24131",
+      "source_tier": "secondary_legal_repository",
+      "coverage": "قانون رقم 1 لسنة 2000 وقانون رقم 4 لسنة 1996 ونصوص وأحكام مصرية أخرى",
+      "notes": "استخدم للوصول إلى النص، ولا تعتبره بديلًا عن الجريدة الرسمية أو النسخة المدمجة بعد التعديلات."
+    },
+    {
+      "source_id": "eta_income_tax_legal_index",
+      "coverage": "قانون الضريبة على الدخل وتعديلاته، ومنها القانون 151 لسنة 2026 واستدراك تصحيح قوانين 149 و150 و151 لسنة 2026",
+      "name_ar": "مصلحة الضرائب المصرية - قوانين الضريبة على الدخل",
+      "notes": "فهرس رسمي وملفات قوانين؛ عند استخلاص أثر قانوني اقرأ نص القانون والاستدراك والجريدة الرسمية معًا.",
+      "organization_ar": "مصلحة الضرائب المصرية",
+      "source_tier": "government_primary_index",
+      "url": "https://eta.gov.eg/ar/content/qwanyn-aldrybt-ly-aldkhl"
+    },
+    {
+      "source_id": "eta_vat_legal_index",
+      "coverage": "قانون القيمة المضافة 67 لسنة 2016 وتعديلاته، ومنها 157 لسنة 2025 و149 لسنة 2026 والاستدراك",
+      "name_ar": "مصلحة الضرائب المصرية - قوانين الضريبة على القيمة المضافة",
+      "notes": "فهرس رسمي للملفات؛ لا تعتمد على النص الأصلي دون مراجعة التعديلات والاستدراك والقرارات التنفيذية.",
+      "organization_ar": "مصلحة الضرائب المصرية",
+      "source_tier": "government_primary_index",
+      "url": "https://eta.gov.eg/ar/content/qwanyn-aldrybt-ly-alqymt-almdaft"
+    },
+    {
+      "source_id": "notaries_evidence_law",
+      "coverage": "نص قانون الإثبات 25 لسنة 1968 وتعديلاته المنشورة",
+      "name_ar": "اتحاد موثقي مصر - قانون الإثبات",
+      "notes": "مصدر مهني غير الجريدة الرسمية؛ طابق النص والتعديلات مع النشر الرسمي عند الاستعمال.",
+      "organization_ar": "اتحاد موثقي مصر",
+      "source_tier": "professional_association_legal_text",
+      "url": "https://www.notariesofegypt.org/article.php?id=430"
+    },
+    {
+      "source_id": "wipo_evidence_law",
+      "coverage": "نسخة عربية وبيانات تشريعية لقانون الإثبات",
+      "name_ar": "WIPO Lex - قانون الإثبات 25 لسنة 1968",
+      "notes": "مصدر مساعد للمطابقة، وليس بديلًا عن الجريدة الرسمية أو النص المحدث.",
+      "organization_ar": "المنظمة العالمية للملكية الفكرية",
+      "source_tier": "intergovernmental_legal_database",
+      "url": "https://www.wipo.int/wipolex/ar/legislation/details/22397"
+    },
+    {
+      "source_id": "lawhub_civil_procedure",
+      "coverage": "نص قانون المرافعات المدنية والتجارية رقم 13 لسنة 1968",
+      "name_ar": "LawHub - قانون المرافعات المدنية والتجارية",
+      "notes": "مستودع ثانوي؛ تحقق من التعديلات والنص الرسمي والإجراءات الخاصة قبل استخدام المادة.",
+      "organization_ar": "مستودع قانوني غير حكومي",
+      "source_tier": "secondary_legal_repository",
+      "url": "https://lawhub.info/eg/?p=11332"
+    },
+    {
+      "name_ar": "بوابة مصلحة الضرائب - نسخة القانون المدني 131 لسنة 1948",
+      "coverage": "نسخة عربية من القانون المدني، ومنها المواد 147 إلى 149",
+      "source_tier": "government_hosted_law_copy",
+      "notes": "نسخة مستضافة على نطاق حكومي؛ طابق النص والتعديلات مع الجريدة الرسمية عند الحاجة.",
+      "url": "https://portal.eta.gov.eg/sites/default/files/2024-10/law-131-1948.pdf",
+      "source_id": "eta_civil_code_copy",
+      "organization_ar": "مصلحة الضرائب المصرية"
+    },
+    {
+      "notes": "راجع القرارات التنفيذية المرتبطة وتاريخ سريان النص قبل تطبيقه على واقعة.",
+      "source_id": "ministry_labor_law_14_2025",
+      "name_ar": "وزارة العمل - القوانين والتشريعات",
+      "organization_ar": "وزارة العمل المصرية",
+      "source_tier": "government_index_and_official_publication",
+      "official_text_url": "https://www.alamiria.com/Sec/TashTxt?id=vPdoWGGYwoE%3D",
+      "url": "https://www.labour.gov.eg/ar/القوانين-والتشريعات/",
+      "coverage": "قانون العمل 14 لسنة 2025 ومصادره الرسمية"
+    },
+    {
+      "name_ar": "البنك الأهلي المصري - دليل حماية المستهلك",
+      "coverage": "نسخة/معلومات عن قانون حماية المستهلك 181 لسنة 2018 وحق الاستبدال والإرجاع",
+      "source_tier": "government_owned_bank_hosted_copy",
+      "notes": "مصدر توعوي مستضاف لدى بنك حكومي؛ راجع نص القانون واللائحة والاستثناءات.",
+      "url": "https://www.nbe.com.eg/AssetsManager/21f05cd6-3a7c-4f51-89a0-8dfe6d40240e.pdf",
+      "source_id": "nbe_consumer_law_copy",
+      "organization_ar": "البنك الأهلي المصري"
+    },
+    {
+      "source_tier": "official_gazette_government_hosted_copy",
+      "notes": "تحقق من القرارات التنفيذية والسريان ونطاق التطبيق لكل مادة.",
+      "organization_ar": "نسخة حكومية مستضافة على بوابة مصلحة الضرائب المصرية",
+      "coverage": "النص الرسمي لقانون العمل 14 لسنة 2025، ومنه المواد 54 و99 و124 و128",
+      "url": "https://portal.eta.gov.eg/sites/default/files/2026-03/law.no_.14.of_.2025.pdf",
+      "source_id": "eta_labor_law_14_2025_gazette",
+      "name_ar": "الجريدة الرسمية - قانون العمل 14 لسنة 2025"
+    },
+    {
+      "source_tier": "government_agency_law_index",
+      "notes": "الفهرس مصدر رسمي للعثور على القانون؛ اقرأ النص واللائحة والاستثناءات قبل استخلاص حق محدد.",
+      "organization_ar": "جهاز حماية المستهلك",
+      "coverage": "فهرس تشريعات حماية المستهلك والقانون 181 لسنة 2018",
+      "url": "https://cpa.gov.eg/ar-eg/تشريعات",
+      "source_id": "consumer_protection_agency_laws",
+      "name_ar": "جهاز حماية المستهلك - التشريعات"
+    },
+    {
+      "source_tier": "intergovernmental_legal_database",
+      "organization_ar": "المنظمة العالمية للملكية الفكرية",
+      "source_id": "wipo_consumer_law",
+      "name_ar": "WIPO Lex - قانون حماية المستهلك رقم 181 لسنة 2018",
+      "coverage": "بيانات ونص عربي لقانون حماية المستهلك 181 لسنة 2018 وروابط النصوص ذات الصلة",
+      "notes": "مصدر تشريعي دولي مساعد؛ اللغة العربية هي المرجع، ويراجع جهاز حماية المستهلك واللائحة التنفيذية للتفاصيل العملية.",
+      "url": "https://www.wipo.int/wipolex/ar/legislation/details/19866"
+    },
+    {
+      "organization_ar": "محاكم مصر الاقتصادية",
+      "url": "https://elec.eecourts.gov.eg/assets/laws/16%20-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%87%D9%84%D9%83.pdf",
+      "notes": "نسخة مستضافة على نطاق جهة قضائية؛ تحقق من القانون واللائحة والتعديلات اللاحقة.",
+      "coverage": "نسخة قانون حماية المستهلك 181 لسنة 2018، ومنها المادة 22 عن ضمان السلع المعمرة",
+      "name_ar": "بوابة تشريعات المحاكم الاقتصادية - قانون حماية المستهلك",
+      "source_id": "court_hosted_consumer_law_copy",
+      "source_tier": "court_hosted_legal_copy"
+    },
+    {
+      "source_id": "lawhub_consumer_protection_181",
+      "name_ar": "LawHub - قانون حماية المستهلك 181 لسنة 2018",
+      "organization_ar": "مستودع قانوني غير حكومي",
+      "url": "https://lawhub.info/eg/?p=11330",
+      "source_tier": "secondary_consolidated_legal_text",
+      "coverage": "نصوص قانون حماية المستهلك، ومنها المادتان 30 و31 بشأن التقسيط والسداد المبكر",
+      "notes": "مستودع ثانوي؛ طابق النص مع الجريدة الرسمية واللائحة والتعديلات قبل تقديم إرشاد تطبيقي."
+    },
+    {
+      "source_id": "egyptian_bar_criminal_procedure",
+      "name_ar": "نقابة المحامين المصرية - واجبات مأموري الضبط القضائي",
+      "organization_ar": "نقابة المحامين المصرية",
+      "url": "https://egyls.com/%D9%88%D8%A7%D8%AC%D8%A8%D8%A7%D8%AA-%D9%85%D8%A3%D9%85%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%B6%D8%A8%D8%B7-%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A6%D9%8A-%D9%88%D9%81%D9%82%D9%8B%D8%A7-%D9%84%D9%84%D9%82/",
+      "source_tier": "professional_association_explanation",
+      "coverage": "شرح واجبات مأموري الضبط القضائي وفق المادة 24 من قانون الإجراءات الجنائية رقم 150 لسنة 1950",
+      "notes": "مادة شرح ثانوية؛ راجع النص التشريعي والتعديلات وتاريخ الانتقال إلى القانون 174 لسنة 2025."
+    },
+    {
+      "source_id": "egyptian_bar_personal_status_25_1929",
+      "name_ar": "نقابة المحامين المصرية - شرح قانون الأحوال الشخصية 25 لسنة 1929",
+      "organization_ar": "نقابة المحامين المصرية",
+      "url": "https://egyls.com/%D8%A5%D9%84%D8%B2%D8%A7%D9%85-%D8%A7%D9%84%D8%B2%D9%88%D8%AC-%D8%A8%D8%A7%D9%84%D8%A5%D9%82%D8%B1%D8%A7%D8%B1-%D8%A8%D8%AD%D8%A7%D9%84%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9/",
+      "source_tier": "professional_association_explanation",
+      "coverage": "شرح المادة 11 مكرر من قانون 25 لسنة 1929 المضافة بالقانون 100 لسنة 1985: الإفصاح عن الحالة الاجتماعية وإخطار الزوجات القائمات.",
+      "notes": "مصدر مهني شارح وليس الجريدة الرسمية. طابق النص مع قانون 25 لسنة 1929 وتعديل 100 لسنة 1985 والنصوص المدمجة والأحكام القضائية."
+    },
+    {
+      "source_id": "scc_egypt_family_law_decisions",
+      "name_ar": "المحكمة الدستورية العليا - أحكام ونصوص تشريعية",
+      "organization_ar": "المحكمة الدستورية العليا المصرية",
+      "url": "https://www.sccourt.gov.eg/",
+      "source_tier": "primary_judicial_source",
+      "coverage": "أحكام المحكمة ونصوص قانونية واردة بأسباب الأحكام، ومنها المادة 18 مكرر من قانون 25 لسنة 1929.",
+      "notes": "يستشهد بنصوص المواد داخل الأحكام كمصدر قضائي رسمي؛ تحقّق من الجريدة الرسمية عند الحاجة للنص التشريعي الحرفي."
+    },
+    {
+      "source_id": "egypt_dar_alifta_family_guidance",
+      "name_ar": "دار الإفتاء المصرية - إرشادات الأحوال الشخصية والنفقة",
+      "organization_ar": "دار الإفتاء المصرية",
+      "url": "https://www.dar-alifta.org/",
+      "source_tier": "official_religious_institution_guidance",
+      "coverage": "إرشادات تفسيرية عن نفقة العدة والمتعة ونفقة الأولاد في ضوء القانون المصري.",
+      "notes": "إرشاد رسمي لا يحل محل نص القانون أو الحكم القضائي؛ ميّز بين الرأي الإرشادي والتقدير الملزم في النزاع."
+    }
+  ]
+}

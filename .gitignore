@@ -78,6 +78,13 @@ webserver_config.py
 # ==============================================================================
 .DS_Store
 Thumbs.db
+
+# Curated, version-controlled citizen-facing seed data (keep bulk workbooks ignored)
+!Datasets/
+Datasets/*
+!Datasets/egypt_citizen_law_seed.jsonl
+!Datasets/legal_sources_catalog.json
+!Datasets/citizen_law_priority_catalog.json
 ehthumbs.db
 Desktop.ini
 .idea/

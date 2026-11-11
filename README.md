@@ -44,6 +44,16 @@
 └── output/                # JSONL output files (gitignored)
 ```
 
+## Citizen-facing legal data (curated seed)
+
+`Datasets/egypt_citizen_law_seed.jsonl` is an import-ready JSON Lines seed for the citizen guidance/RAG use case. It contains selected source-linked articles and citizen pathways across traffic, work, tenancy, civil contracts, family support, consumer rights, social insurance, child protection, and personal-data protection. The current seed is a curated, prioritized collection, not an exhaustive collection of Egyptian legislation. It now includes concise, source-linked summaries of Articles 6 and 11 bis of Personal Status Law 25/1929 and Article 21 of Law 1/2000, covering harm-based separation, notice and remedies related to a subsequent marriage, and proof/documentation of divorce. It also covers Articles 2 of Law 25/1920 and 18 bis and 18 bis (second) of Law 25/1929 on divorce-related maintenance, mutaa, and child support. Each record carries its source URL, source type, retrieval date, text status, and a note on limits/currentness. The service checklists are guidance grounded in official sources, not definitive legal opinions.
+
+`Datasets/legal_sources_catalog.json` records source provenance and authority tiers. Prefer the Official Gazette and government portals for primary texts. Manshurat entries are marked as secondary repositories and should be checked against the Gazette and amendments before use. The seed deliberately does not treat low-quality OCR, unverified status labels, or scraped administrative decisions as citizen-ready law text. When adding records, keep one article per record, preserve the article number and publication citation, distinguish verbatim text from a paraphrase, and record amendment/currentness checks.
+
+`Datasets/citizen_law_priority_catalog.json` ranks 33 commonly useful laws across family, housing, work, consumer, criminal, court, traffic, insurance, identity, child, tax, and digital topics. The ordering is a product heuristic, not measured search volume. Each entry lists the kinds of questions it may support, a source link, and whether the text still needs amendment consolidation. `metadata_verified_text_not_ingested` means the law's identity/source page was checked but the text is not yet part of the article seed.
+
+The catalog is a prioritized start, not a complete inventory of every Egyptian law. Before expanding into lower-priority statutes, ingest and consolidate the full texts and amendments for these entries. Update this catalog whenever an amendment changes applicability. For example, as of the catalog date, Law 160 of 2026 postponed the effective date of the new Criminal Procedure Law 174 of 2025 to 1 October 2027, so Law 150 of 1950 remains the procedural baseline until then, subject to its own amendments. The amendment appears on the official [Amiri Press legislation portal](https://www.alamiria.com/Sec/TashTxt?id=Aalg37zxdcU%3D); the 2025 law text is available from the [Ministry of Justice Gazette copy](https://moj.gov.eg/backend/api/documents/download/20F3150C-29F1-487E-A0F0-FCCE10CB207B).
+
 ---
 
 ## 🔑 GCP Service Account Setup
@@ -273,3 +283,36 @@ psql -U pipeline_user -d egypt_laws -c "
 ## 📜 License
 
 Internal — DEPI Final Project — Egypt Legal Data Pipeline
+
+
+Recent expansion added selected provisions from Personal Data Protection Law 151/2020, Social Insurance Law 148/2019, Child Law 12/1996, and a 2023 amendment record. Texts from consolidated secondary repositories are explicitly labeled and require Gazette cross-check before legal reliance. The ranking is an editorial prioritization for the project, not measured search-volume data.
+
+
+
+The latest tranche adds selected articles on khulʿ proceedings, family dispute settlement, civil-record corrections, online privacy violations, and building permits. These are paraphrases linked to legal repositories and corroborating legal references; verify the Gazette text, amendments, and applicable regulations before legal use.
+
+
+
+The 2026-10-16 expansion adds five records: Evidence Law 25/1968 Article 1, Civil and Commercial Procedure Law 13/1968 Article 63, and official amendment/correction relationships for Income Tax Law 91/2005 and VAT Law 67/2016 (including the ETA-listed 2026 correction for Laws 149/150/151). The source catalog now includes ETA tax indexes and legal text cross-check sources. Amendment relationships are intentionally not presented as consolidated legal advice.
+
+
+Expansion (2026-10-16): added citizen-focused Civil Code provisions 148-149 and refreshed the existing Article 147 source to a government-hosted copy (contracts and adhesion), Consumer Protection Law Article 17 (return right with exceptions), and an official-source relationship record for Labor Law 14/2025. Each item records source tier, text status, retrieval date, and a currentness caveat.
+
+
+
+Expansion (2026-10-16): added Labor Law 14/2025 Articles 54, 99, 124, and 128, covering maternity leave, new work arrangements, annual leave, and casual/new-child leave; added Consumer Protection Law Article 21 on defective or nonconforming goods. Sources include the Gazette copy hosted by ETA and the Consumer Protection Agency law index.
+
+
+Expansion (2026-10-16): added Civil Code Articles 558, 563, and 564 on lease definition, unspecified lease term/notice, and delivery condition, plus Consumer Protection Law Article 10 on invoices. Lease summaries explicitly distinguish Civil Code rules from special rent legislation; Consumer Protection sources now include WIPO Lex and the Consumer Protection Agency.
+
+
+Expansion (2026-10-16): added Civil Code Articles 568-570 on landlord repairs, damage to rented premises, and urgent repairs, plus Consumer Protection Law Article 22 on durable-goods warranties. These summaries retain conditions and caution against automatic rent deductions or warranty assumptions.
+
+
+Expansion (2026-10-16): added Evidence Law Articles 14 and 15 on private-document signatures and fixed dates, and Family Courts Law Article 7 on the settlement process and its time limit. Texts are paraphrased and identify the source tier and procedural caveats.
+
+
+Expansion (2026-11-11): added Civil Code Article 157 on remedies for nonperformance in bilateral contracts, and Consumer Protection Law Articles 30-31 on installment disclosures and early settlement. Consumer entries are paraphrases from a secondary consolidated repository with WIPO Lex cross-reference; verify amendments and implementing rules before case-specific use.
+
+
+Expansion (2026-11-11): added Article 1 of Law 4/1996 on the scope of civil-law tenancy rules and Article 24 of Criminal Procedure Law 150/1950 on receiving and forwarding criminal reports. The criminal-procedure record is explicitly transitional until 1 October 2027 under Law 160/2026; check special rent rules and amendments for every case.

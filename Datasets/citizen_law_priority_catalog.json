@@ -1,0 +1,597 @@
+{
+  "catalog_version": "1.0",
+  "updated_on": "2026-11-11",
+  "purpose": "Prioritized discovery catalog for laws likely to answer common everyday questions in Egypt. This is a product triage order, not a measured search-volume ranking and not a complete inventory of Egyptian legislation.",
+  "priority_method": "Heuristic order based on frequency and impact of ordinary life events: family, housing, work, money and consumer issues, interactions with police/courts, vehicles, identity, children, and digital life. Reorder when product analytics or user research becomes available.",
+  "fields_note": "metadata_verified means the law identity and source page were checked; it does not mean the consolidated current text or every amendment has been ingested. Do not answer from catalog metadata alone.",
+  "laws": [
+    {
+      "priority_rank": 1,
+      "priority_tier": "very_high",
+      "domain": "family",
+      "law_number": "25",
+      "year": 1920,
+      "title": "أحكام النفقة وبعض مسائل الأحوال الشخصية",
+      "common_user_questions": [
+        "نفقة الزوجة والأبناء",
+        "متجمد النفقة",
+        "امتناع الزوج عن الإنفاق"
+      ],
+      "source_url": "https://manshurat.org/node/879",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_check_law_100_1985_and_related_personal_status_provisions",
+      "data_status": "selected_articles_added_to_citizen_seed",
+      "article_coverage": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "priority_rank": 2,
+      "priority_tier": "very_high",
+      "domain": "family",
+      "law_number": "25",
+      "year": 1929,
+      "title": "قانون الأحوال الشخصية",
+      "common_user_questions": [
+        "الطلاق للضرر",
+        "الغيبة والفقد",
+        "الحضانة ومسكن الحضانة"
+      ],
+      "source_url": "https://manshurat.org/node/12369",
+      "source_authority": "secondary_legal_repository; corroborated_by_Egyptian_Bar_Association",
+      "consolidation_status": "amended_by_law_100_1985_read_with_family_procedure_law_1_2000_and_relevant_judgments",
+      "data_status": "selected_articles_added_to_citizen_seed",
+      "article_coverage": [
+        "11 مكرر",
+        "18 مكرر",
+        "18 مكرر ثانيًا",
+        "6"
+      ]
+    },
+    {
+      "priority_rank": 3,
+      "priority_tier": "very_high",
+      "domain": "family",
+      "law_number": "1",
+      "year": 2000,
+      "title": "تنظيم بعض أوضاع وإجراءات التقاضي في مسائل الأحوال الشخصية",
+      "common_user_questions": [
+        "الخلع",
+        "إجراءات دعوى الأسرة",
+        "إثبات مسائل الأحوال الشخصية"
+      ],
+      "source_url": "https://manshurat.org/node/27318",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_check_related_laws",
+      "data_status": "selected_articles_added_to_citizen_seed",
+      "article_coverage": [
+        "21"
+      ]
+    },
+    {
+      "priority_rank": 4,
+      "priority_tier": "very_high",
+      "domain": "housing",
+      "law_number": "164",
+      "year": 2025,
+      "title": "بعض الأحكام المتعلقة بقوانين إيجار الأماكن وإعادة تنظيم العلاقة بين المؤجر والمستأجر",
+      "common_user_questions": [
+        "الإيجار القديم",
+        "زيادة الأجرة",
+        "مدة العقد والإخلاء",
+        "امتداد عقد الإيجار"
+      ],
+      "source_url": "https://www.alamiria.com/Sec/TashTxt?id=WAxK4jFHfTk%3D",
+      "official_gazette_pdf": "https://mediadr.sis.gov.eg/xmlui/bitstream/handle/123456789/105149/OG31_20250804_2885.pdf?isAllowed=y&sequence=2",
+      "source_authority": "official_gazette",
+      "consolidation_status": "read_with_laws_49_1977_136_1981_and_current_implementing_decisions",
+      "data_status": "official_source_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 4.5,
+      "priority_tier": "very_high",
+      "domain": "housing",
+      "law_number": "165",
+      "year": 2025,
+      "title": "تعديل القانون رقم 4 لسنة 1996 في شأن انتهاء عقود إيجار بعض الأماكن",
+      "common_user_questions": [
+        "انتهاء عقد الإيجار",
+        "إخلاء العين بعد نهاية المدة",
+        "طلب أمر طرد من قاضي الأمور الوقتية"
+      ],
+      "source_url": "https://alamiria.com/Sec/TashTxt?id=PQXvLW52gd8%3D",
+      "source_authority": "official_amiri_press_legislation_portal",
+      "consolidation_status": "read_together_with_law_4_1996_and_law_164_2025",
+      "data_status": "official_source_verified_text_in_citizen_seed"
+    },
+    {
+      "priority_rank": 5,
+      "priority_tier": "very_high",
+      "domain": "housing",
+      "law_number": "4",
+      "year": 1996,
+      "title": "سريان أحكام القانون المدني على الأماكن التي لم يسبق تأجيرها أو انتهت عقود إيجارها",
+      "common_user_questions": [
+        "الإيجار الجديد",
+        "انتهاء عقد الإيجار",
+        "إخلاء بعد انتهاء المدة"
+      ],
+      "source_url": "https://mksegypt.org/public/index.php/ar/laws/23915",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "read_with_law_165_2025_and_special_rent_laws",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 6,
+      "priority_tier": "very_high",
+      "domain": "work",
+      "law_number": "14",
+      "year": 2025,
+      "title": "قانون العمل",
+      "common_user_questions": [
+        "الفصل من العمل",
+        "الأجور والإجازات",
+        "عقد العمل وفترة الاختبار",
+        "مستحقات نهاية الخدمة"
+      ],
+      "source_url": "https://sis.gov.eg/media/760267/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%B1%D9%82%D9%85-14-%D9%84%D8%B3%D9%86%D8%A9-2025-%D8%A8%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D9%84.pdf",
+      "source_authority": "official_gazette_copy_hosted_by_state_information_service",
+      "consolidation_status": "new_law_check_implementing_decisions_and_transition_rules",
+      "data_status": "official_law_source_relationship_added"
+    },
+    {
+      "priority_rank": 7,
+      "priority_tier": "very_high",
+      "domain": "civil_and_contracts",
+      "law_number": "131",
+      "year": 1948,
+      "title": "القانون المدني",
+      "common_user_questions": [
+        "العقود والالتزامات",
+        "التعويض عن الضرر",
+        "البيع والملكية",
+        "التقادم"
+      ],
+      "source_url": "https://manshurat.org/node/72413",
+      "source_authority": "secondary_repository_copy_prepared_by_ministry_of_finance",
+      "consolidation_status": "check_amendments_and_special_laws",
+      "data_status": "metadata_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 8,
+      "priority_tier": "very_high",
+      "domain": "consumer",
+      "law_number": "181",
+      "year": 2018,
+      "title": "قانون حماية المستهلك",
+      "common_user_questions": [
+        "استرجاع أو استبدال سلعة",
+        "عيب المنتج",
+        "الشراء عبر الإنترنت",
+        "الضمان والإعلان المضلل"
+      ],
+      "source_url": "https://manshurat.org/node/31479",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "read_with_executive_regulations_and_current_consumer_protection_authority_guidance",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 9,
+      "priority_tier": "very_high",
+      "domain": "criminal_law",
+      "law_number": "58",
+      "year": 1937,
+      "title": "قانون العقوبات",
+      "common_user_questions": [
+        "السب والقذف",
+        "التهديد والاعتداء",
+        "النصب والسرقة",
+        "العقوبة والتصالح"
+      ],
+      "source_url": "https://manshurat.org/node/23881",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "frequently_amended_check_latest_amendments_and_related_special_laws",
+      "data_status": "metadata_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 10,
+      "priority_tier": "very_high",
+      "domain": "criminal_procedure",
+      "law_number": "150",
+      "year": 1950,
+      "title": "قانون الإجراءات الجنائية (القانون الجاري قبل بدء سريان القانون الجديد)",
+      "common_user_questions": [
+        "محضر الشرطة",
+        "القبض والتفتيش",
+        "النيابة والتحقيق",
+        "الحبس الاحتياطي والطعن"
+      ],
+      "source_url": "https://manshurat.org/node/14419",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "transitional_until_2027_10_01_check_law_160_2026_and_all_amendments",
+      "data_status": "selected_article_added_with_transition_date_to_law_174_2025"
+    },
+    {
+      "priority_rank": 11,
+      "priority_tier": "very_high",
+      "domain": "criminal_procedure",
+      "law_number": "174",
+      "year": 2025,
+      "title": "قانون الإجراءات الجنائية الجديد",
+      "common_user_questions": [
+        "حقوق المتهم أثناء التحقيق",
+        "الإعلان والمحاكمة",
+        "طرق الطعن والإجراءات الجنائية"
+      ],
+      "source_url": "https://moj.gov.eg/backend/api/documents/download/20F3150C-29F1-487E-A0F0-FCCE10CB207B",
+      "amending_law_url": "https://www.alamiria.com/Sec/TashTxt?id=Aalg37zxdcU%3D",
+      "source_authority": "official_gazette_and_official_amending_law",
+      "consolidation_status": "law_160_2026_delays_effective_date_to_2027_10_01; law_150_1950_remains_in_force_until_then_subject_to_other_amendments",
+      "data_status": "official_text_and_amendment_verified_not_ingested"
+    },
+    {
+      "priority_rank": 12,
+      "priority_tier": "high",
+      "domain": "civil_procedure",
+      "law_number": "13",
+      "year": 1968,
+      "title": "قانون المرافعات المدنية والتجارية",
+      "common_user_questions": [
+        "رفع دعوى مدنية",
+        "الاختصاص ومواعيد الجلسات",
+        "إعلان الخصوم والطعن"
+      ],
+      "source_url": "https://manshurat.org/node/32203",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_including_law_157_2024_check_latest_text",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 13,
+      "priority_tier": "high",
+      "domain": "evidence",
+      "law_number": "25",
+      "year": 1968,
+      "title": "قانون الإثبات في المواد المدنية والتجارية",
+      "common_user_questions": [
+        "إثبات الدين أو العقد",
+        "حجية الرسائل والمحررات",
+        "الشهادة واليمين"
+      ],
+      "source_url": "https://manshurat.org/node/32240",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_check_latest_text_and_special_rules",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 14,
+      "priority_tier": "high",
+      "domain": "traffic",
+      "law_number": "66",
+      "year": 1973,
+      "title": "قانون المرور",
+      "common_user_questions": [
+        "مخالفات المرور والتصالح",
+        "الرخصة وتجديدها",
+        "نقل ملكية مركبة",
+        "حادث مروري"
+      ],
+      "source_url": "https://traffic.moi.gov.eg/Arabic/OurServices/InfoServices/TrafficLaw/Pages/traffic-control-in-public-roads.aspx",
+      "source_authority": "ministry_of_interior_primary_portal",
+      "consolidation_status": "check_amendments_executive_regulations_and_current_service_rules",
+      "data_status": "partial_articles_in_citizen_seed"
+    },
+    {
+      "priority_rank": 15,
+      "priority_tier": "high",
+      "domain": "social_insurance",
+      "law_number": "148",
+      "year": 2019,
+      "title": "قانون التأمينات الاجتماعية والمعاشات",
+      "common_user_questions": [
+        "استحقاق المعاش",
+        "المعاش المبكر",
+        "إصابة العمل",
+        "الاشتراك التأميني"
+      ],
+      "source_url": "https://manshurat.org/node/61247",
+      "executive_regulations_url": "https://manshurat.org/node/74436",
+      "source_authority": "secondary_legal_repository_with_gazette_regulations",
+      "consolidation_status": "amended_by_law_8_2024_and_other_rules_check_latest",
+      "data_status": "selected_articles_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 16,
+      "priority_tier": "high",
+      "domain": "children",
+      "law_number": "12",
+      "year": 1996,
+      "title": "قانون الطفل",
+      "common_user_questions": [
+        "سن الطفل والمسؤولية",
+        "النفقة والحضانة",
+        "حماية الطفل والتبليغ"
+      ],
+      "source_url": "https://manshurat.org/node/37",
+      "amendment_reference": "https://manshurat.org/sites/default/files/alamiria_2023_186.pdf",
+      "source_authority": "secondary_repository_with_official_amendment_copy",
+      "consolidation_status": "amended_including_law_186_2023_and_other_related_laws",
+      "data_status": "selected_articles_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 17,
+      "priority_tier": "high",
+      "domain": "family_courts",
+      "law_number": "10",
+      "year": 2004,
+      "title": "قانون إنشاء محاكم الأسرة",
+      "common_user_questions": [
+        "محكمة الأسرة المختصة",
+        "مكتب تسوية المنازعات الأسرية",
+        "إجراءات دعاوى الأسرة"
+      ],
+      "source_url": "https://manshurat.org/node/7336",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_by_law_215_2017_check_current_court_rules",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 18,
+      "priority_tier": "high",
+      "domain": "identity_and_records",
+      "law_number": "143",
+      "year": 1994,
+      "title": "قانون الأحوال المدنية",
+      "common_user_questions": [
+        "بطاقة الرقم القومي",
+        "تصحيح بيانات الميلاد أو الزواج أو الطلاق",
+        "استخراج قيد رسمي"
+      ],
+      "source_url": "https://manshurat.org/node/31633",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_check_law_8_2018_and_current_ministry_procedures",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 19,
+      "priority_tier": "high",
+      "domain": "housing_and_property",
+      "law_number": "119",
+      "year": 2008,
+      "title": "قانون البناء",
+      "common_user_questions": [
+        "ترخيص البناء",
+        "مخالفات البناء والتصالح",
+        "اتحاد الشاغلين"
+      ],
+      "source_url": "https://manshurat.org/node/28798",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "amended_check_law_187_2023_and_executive_regulations",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 20,
+      "priority_tier": "high",
+      "domain": "digital_rights_and_offenses",
+      "law_number": "175",
+      "year": 2018,
+      "title": "قانون مكافحة جرائم تقنية المعلومات",
+      "common_user_questions": [
+        "الابتزاز الإلكتروني",
+        "اختراق الحسابات",
+        "نشر صور أو بيانات خاصة",
+        "البلاغ عن جريمة إلكترونية"
+      ],
+      "source_url": "https://manshurat.org/node/31487",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "read_with_executive_regulations_and_related_penal_laws",
+      "data_status": "selected_article_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 21,
+      "priority_tier": "high",
+      "domain": "privacy_and_data",
+      "law_number": "151",
+      "year": 2020,
+      "title": "قانون حماية البيانات الشخصية",
+      "common_user_questions": [
+        "جمع البيانات الشخصية",
+        "مشاركة البيانات",
+        "حقوق الشخص تجاه جهة تحتفظ ببياناته"
+      ],
+      "source_url": "https://manshurat.org/search?keys=حماية%20البيانات%20الشخصية%20151%202020",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_executive_regulations_and_commencement_status",
+      "data_status": "selected_articles_added_to_citizen_seed"
+    },
+    {
+      "priority_rank": 22,
+      "priority_tier": "medium_high",
+      "domain": "housing_and_property",
+      "law_number": "114",
+      "year": 1946,
+      "title": "قانون تنظيم الشهر العقاري",
+      "common_user_questions": [
+        "تسجيل شقة أو عقار",
+        "صحة ونفاذ العقد",
+        "تسجيل الملكية"
+      ],
+      "source_url": "https://manshurat.org/search?keys=قانون%20تنظيم%20الشهر%20العقاري%20114%201946",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_amendments_and_law_9_2022_and_current_registration_procedures",
+      "data_status": "source_discovery_pending"
+    },
+    {
+      "priority_rank": 23,
+      "priority_tier": "medium_high",
+      "domain": "civil_service",
+      "law_number": "81",
+      "year": 2016,
+      "title": "قانون الخدمة المدنية",
+      "common_user_questions": [
+        "إجازات الموظف الحكومي",
+        "الجزاءات والتحقيق الإداري",
+        "النقل والترقية وإنهاء الخدمة"
+      ],
+      "source_url": "https://manshurat.org/node/13128",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "check_amendments_executive_regulations_and_scope_exclusions",
+      "data_status": "metadata_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 24,
+      "priority_tier": "medium_high",
+      "domain": "tax",
+      "law_number": "91",
+      "year": 2005,
+      "title": "قانون الضريبة على الدخل",
+      "common_user_questions": [
+        "الإقرار الضريبي للأفراد",
+        "ضريبة المرتبات",
+        "الخصم والإعفاءات"
+      ],
+      "source_url": "https://eta.gov.eg/ar/content/qwanyn-aldrybt-ly-aldkhl",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "check_law_151_2026_and_official_correction_plus_all_prior_amendments",
+      "data_status": "amendment_relationship_added_for_law_151_2026_and_official_correction"
+    },
+    {
+      "priority_rank": 25,
+      "priority_tier": "medium_high",
+      "domain": "tax_and_property",
+      "law_number": "196",
+      "year": 2008,
+      "title": "قانون الضريبة على العقارات المبنية",
+      "common_user_questions": [
+        "الضريبة العقارية",
+        "الإعفاءات",
+        "تقديم الطعن أو الإقرار"
+      ],
+      "source_url": "https://manshurat.org/search?keys=قانون%20الضريبة%20على%20العقارات%20المبنية%20196%202008",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_amendments_and_current_tax_authority_guidance",
+      "data_status": "source_discovery_pending"
+    },
+    {
+      "priority_rank": 26,
+      "priority_tier": "medium",
+      "domain": "tax_and_consumer",
+      "law_number": "67",
+      "year": 2016,
+      "title": "قانون الضريبة على القيمة المضافة",
+      "common_user_questions": [
+        "ضريبة القيمة المضافة على فاتورة أو خدمة",
+        "التسجيل الضريبي",
+        "السلع والخدمات المعفاة"
+      ],
+      "source_url": "https://eta.gov.eg/ar/content/qwanyn-aldrybt-ly-alqymt-almdaft",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_laws_157_2025_and_149_2026_official_correction_and_current_executive_rules",
+      "data_status": "amendment_relationships_added_for_laws_157_2025_and_149_2026_plus_correction"
+    },
+    {
+      "priority_rank": 27,
+      "priority_tier": "medium",
+      "domain": "health",
+      "law_number": "2",
+      "year": 2018,
+      "title": "قانون نظام التأمين الصحي الشامل",
+      "common_user_questions": [
+        "الانتفاع بالتأمين الصحي الشامل",
+        "الاشتراكات والإعفاءات",
+        "تقديم شكوى عن الخدمة"
+      ],
+      "source_url": "https://ns1.manshurat.org/node/63712",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "check_phased_rollout_executive_regulations_and_governorate",
+      "data_status": "metadata_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 28,
+      "priority_tier": "medium",
+      "domain": "evidence_and_records",
+      "law_number": "15",
+      "year": 2004,
+      "title": "تنظيم التوقيع الإلكتروني وإنشاء هيئة تنمية صناعة تكنولوجيا المعلومات",
+      "common_user_questions": [
+        "حجية التوقيع الإلكتروني",
+        "العقد الإلكتروني",
+        "المحررات الرقمية"
+      ],
+      "source_url": "https://manshurat.org/search?keys=قانون%20التوقيع%20الإلكتروني%2015%202004",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_executive_regulations_and_amendments",
+      "data_status": "source_discovery_pending"
+    },
+    {
+      "priority_rank": 29,
+      "priority_tier": "medium",
+      "domain": "consumer_and_business",
+      "law_number": "3",
+      "year": 2005,
+      "title": "قانون حماية المنافسة ومنع الممارسات الاحتكارية",
+      "common_user_questions": [
+        "الاحتكار ورفع الأسعار",
+        "الممارسات التجارية المقيدة للمنافسة",
+        "بلاغ لجهاز حماية المنافسة"
+      ],
+      "source_url": "https://manshurat.org/search?keys=قانون%20حماية%20المنافسة%203%202005",
+      "source_authority": "secondary_repository_search_entry",
+      "consolidation_status": "check_amendments_and_executive_regulations",
+      "data_status": "source_discovery_pending"
+    },
+    {
+      "priority_rank": 30,
+      "priority_tier": "medium",
+      "domain": "citizenship_and_residency",
+      "law_number": "26",
+      "year": 1975,
+      "title": "قانون الجنسية المصرية",
+      "common_user_questions": [
+        "اكتساب أو فقد الجنسية",
+        "جنسية الأبناء",
+        "إثبات الجنسية المصرية"
+      ],
+      "source_url": "https://manshurat.org/node/7358",
+      "source_authority": "secondary_legal_repository_relations_page",
+      "consolidation_status": "amended_check_latest_amendments_and_implementing_procedures",
+      "data_status": "source_discovery_pending"
+    },
+    {
+      "priority_rank": 31,
+      "priority_tier": "medium",
+      "domain": "housing",
+      "law_number": "49",
+      "year": 1977,
+      "title": "قانون تأجير وبيع الأماكن وتنظيم العلاقة بين المؤجر والمستأجر",
+      "common_user_questions": [
+        "الإيجار القديم",
+        "امتداد عقد الإيجار",
+        "الإخلاء والنزاع بين المؤجر والمستأجر"
+      ],
+      "source_url": "https://manshurat.org/node/250",
+      "source_authority": "secondary_legal_repository",
+      "consolidation_status": "read_with_laws_136_1981_164_2025_and_constitutional_court_rulings",
+      "data_status": "metadata_verified_text_not_ingested"
+    },
+    {
+      "priority_rank": 32,
+      "priority_tier": "medium",
+      "domain": "housing",
+      "law_number": "136",
+      "year": 1981,
+      "title": "بعض الأحكام الخاصة بتأجير وبيع الأماكن وتنظيم العلاقة بين المؤجر والمستأجر",
+      "common_user_questions": [
+        "الإيجار القديم",
+        "الإخلاء والاستثناءات",
+        "تطبيق أحكام الإيجار على الأشخاص الاعتبارية"
+      ],
+      "source_url": "https://manshurat.org/node/255",
+      "source_authority": "secondary_legal_repository_relations_page",
+      "consolidation_status": "read_with_laws_49_1977_164_2025_and_constitutional_court_rulings",
+      "data_status": "source_checked_relations_page_text_not_ingested"
+    }
+  ],
+  "known_gap": "This first ranking has 33 high-priority law entries across common citizen domains. It is intentionally not described as all Egyptian laws. Next expansion should discover the direct source pages for entries marked source_discovery_pending, then add topic-level articles, amendments, implementing regulations, and government service pathways before lower-frequency specialist legislation."
+}
