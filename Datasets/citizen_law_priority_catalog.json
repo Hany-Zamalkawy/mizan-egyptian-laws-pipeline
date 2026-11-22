@@ -308,7 +308,17 @@
       "source_url": "https://manshurat.org/node/32240",
       "source_authority": "secondary_legal_repository",
       "consolidation_status": "amended_check_latest_text_and_special_rules",
-      "data_status": "selected_article_added_to_citizen_seed"
+      "data_status": "selected_official_documents_and_certified_copies_articles_added",
+      "article_coverage": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "source_limit": "وزارة المالية تعرض القانون كسارٍ وتحيل إلى الجريدة الرسمية كمرجع قانوني؛ سجل WIPO يعرض نص القانون الأصلي ولا يثبت وحده دمج كل تعديلاته."
     },
     {
       "priority_rank": 14,
@@ -639,5 +649,5 @@
       "data_status": "source_checked_relations_page_text_not_ingested"
     }
   ],
-  "known_gap": "أضيفت مواد رفع الدعوى وقيدها وإعلان الصحيفة وأثر عدم الإعلان من قانون المرافعات، وربط تعديل النصاب المالي بالقانون 157 لسنة 2024 ومصدره الحكومي. الأولوية التالية مراجعة نصوص قانون الإثبات والمرور من النص الرسمي والتعديلات الأحدث."
+  "known_gap": "أضيفت مواد تعريف المحرر الرسمي وحجيته وصوره من قانون الإثبات ذي الأولوية 13. الفجوة التالية مراجعة قواعد الشهادة واليمين أو التحقق من أحدث التعديلات على قانون المرور قبل إدخال قيم أو مواعيد."
 }
