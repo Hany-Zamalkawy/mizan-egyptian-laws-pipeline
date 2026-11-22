@@ -335,8 +335,23 @@
       ],
       "source_url": "https://traffic.moi.gov.eg/Arabic/OurServices/InfoServices/TrafficLaw/Pages/traffic-control-in-public-roads.aspx",
       "source_authority": "ministry_of_interior_primary_portal",
-      "consolidation_status": "check_amendments_executive_regulations_and_current_service_rules",
-      "data_status": "partial_articles_in_citizen_seed"
+      "consolidation_status": "law_17_2024_applied_to_covered_articles; verify_executive_regulations_and_local_deposit_cost_decisions",
+      "data_status": "partial_traffic_articles_plus_law_17_2024_abandoned_vehicle_procedure_added",
+      "article_coverage": [
+        "1",
+        "3 مكرر",
+        "10",
+        "11",
+        "63",
+        "65/الفقرة الأولى",
+        "65 مكرر 1",
+        "65 مكرر 2",
+        "74",
+        "80"
+      ],
+      "related_amendment_records": [
+        "17/2024"
+      ]
     },
     {
       "priority_rank": 15,
@@ -649,5 +664,5 @@
       "data_status": "source_checked_relations_page_text_not_ingested"
     }
   ],
-  "known_gap": "أضيفت مواد تعريف المحرر الرسمي وحجيته وصوره من قانون الإثبات ذي الأولوية 13. الفجوة التالية مراجعة قواعد الشهادة واليمين أو التحقق من أحدث التعديلات على قانون المرور قبل إدخال قيم أو مواعيد."
+  "known_gap": "أضيفت تعديلات قانون المرور 17 لسنة 2024 وإجراءات المركبات المهملة/المتروكة ذات الأولوية العملية مع فصل المهلة الانتقالية المنتهية عن المواعيد الجارية. الأولوية التالية مراجعة مواد التأمينات الاجتماعية 148 لسنة 2019 أو قانون الطفل من مصادر رسمية محدثة."
 }
