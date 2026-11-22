@@ -238,7 +238,15 @@
       "source_url": "https://manshurat.org/node/14419",
       "source_authority": "secondary_legal_repository",
       "consolidation_status": "transitional_until_2027_10_01_check_law_160_2026_and_all_amendments",
-      "data_status": "selected_article_added_with_transition_date_to_law_174_2025"
+      "data_status": "selected_articles_added_arrest_referral_dignity_lawyer_and_rights",
+      "article_coverage": [
+        "24",
+        "34",
+        "36",
+        "40",
+        "124",
+        "139"
+      ]
     },
     {
       "priority_rank": 11,
@@ -273,7 +281,17 @@
       "source_url": "https://manshurat.org/node/32203",
       "source_authority": "secondary_legal_repository",
       "consolidation_status": "amended_including_law_157_2024_check_latest_text",
-      "data_status": "selected_article_added_to_citizen_seed"
+      "data_status": "selected_filing_service_and_nonservice_articles_added;_law_157_2024_amendment_relationship_verified",
+      "article_coverage": [
+        "63",
+        "65",
+        "67",
+        "68",
+        "70"
+      ],
+      "related_amendment_records": [
+        "157/2024"
+      ]
     },
     {
       "priority_rank": 13,
@@ -621,5 +639,5 @@
       "data_status": "source_checked_relations_page_text_not_ingested"
     }
   ],
-  "known_gap": "Priority work completed this round for selected Law 164/2025 rent articles and Law 58/1937 fraud, breach of trust and harassment provisions. Next, expand common consumer provisions and keep criminal-procedure answers tied to the transition date for Law 174/2025; then ingest selected civil obligations and identity/property statutes from primary texts."
+  "known_gap": "أضيفت مواد رفع الدعوى وقيدها وإعلان الصحيفة وأثر عدم الإعلان من قانون المرافعات، وربط تعديل النصاب المالي بالقانون 157 لسنة 2024 ومصدره الحكومي. الأولوية التالية مراجعة نصوص قانون الإثبات والمرور من النص الرسمي والتعديلات الأحدث."
 }
