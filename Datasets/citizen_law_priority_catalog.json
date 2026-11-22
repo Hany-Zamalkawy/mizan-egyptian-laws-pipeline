@@ -1,6 +1,6 @@
 {
   "catalog_version": "1.0",
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-22",
   "purpose": "Prioritized discovery catalog for laws likely to answer common everyday questions in Egypt. This is a product triage order, not a measured search-volume ranking and not a complete inventory of Egyptian legislation.",
   "priority_method": "Heuristic order based on frequency and impact of ordinary life events: family, housing, work, money and consumer issues, interactions with police/courts, vehicles, identity, children, and digital life. Reorder when product analytics or user research becomes available.",
   "fields_note": "metadata_verified means the law identity and source page were checked; it does not mean the consolidated current text or every amendment has been ingested. Do not answer from catalog metadata alone.",
@@ -80,13 +80,25 @@
         "الإيجار القديم",
         "زيادة الأجرة",
         "مدة العقد والإخلاء",
-        "امتداد عقد الإيجار"
+        "امتداد عقد الإيجار",
+        "حساب الأجرة السكنية حسب تصنيف المنطقة",
+        "الزيادة السنوية 15%",
+        "أسباب الإخلاء قبل نهاية المدة"
       ],
       "source_url": "https://www.alamiria.com/Sec/TashTxt?id=WAxK4jFHfTk%3D",
       "official_gazette_pdf": "https://mediadr.sis.gov.eg/xmlui/bitstream/handle/123456789/105149/OG31_20250804_2885.pdf?isAllowed=y&sequence=2",
       "source_authority": "official_gazette",
-      "consolidation_status": "read_with_laws_49_1977_136_1981_and_current_implementing_decisions",
-      "data_status": "official_source_verified_text_not_ingested"
+      "consolidation_status": "read_with_laws_49_1977_136_1981_and_cabinet_decisions_53_2025_4_2026_24_2026_59_2026;latest_2026_10_28_cabinet_announcement_needs_final_published_decision_check",
+      "data_status": "selected_scope_rent_calculation_term_eviction_and_current_implementation_update_added",
+      "article_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
     },
     {
       "priority_rank": 4.5,
@@ -155,8 +167,15 @@
       ],
       "source_url": "https://manshurat.org/node/72413",
       "source_authority": "secondary_repository_copy_prepared_by_ministry_of_finance",
-      "consolidation_status": "check_amendments_and_special_laws",
-      "data_status": "metadata_verified_text_not_ingested"
+      "consolidation_status": "check_amendments_and_special_laws_before_applying_lease_articles",
+      "data_status": "selected_lease_articles_added_to_citizen_seed",
+      "article_coverage": [
+        "147",
+        "558",
+        "563",
+        "565",
+        "567"
+      ]
     },
     {
       "priority_rank": 8,
@@ -187,12 +206,21 @@
         "السب والقذف",
         "التهديد والاعتداء",
         "النصب والسرقة",
-        "العقوبة والتصالح"
+        "العقوبة والتصالح",
+        "النصب والاحتيال",
+        "خيانة الأمانة",
+        "التعرض والتحرش عبر وسائل الاتصال"
       ],
-      "source_url": "https://manshurat.org/node/23881",
-      "source_authority": "secondary_legal_repository",
-      "consolidation_status": "frequently_amended_check_latest_amendments_and_related_special_laws",
-      "data_status": "metadata_verified_text_not_ingested"
+      "source_url": "https://manshurat.org/node/14677",
+      "source_authority": "secondary_consolidated_text_cross_checked_with_official_gazette_laws_141_2021_and_185_2023",
+      "consolidation_status": "selected_articles_consolidated_through_law_185_2023;verify_other_penal_code_articles_and_later_amendments",
+      "data_status": "selected_articles_added_with_amendments_consolidated_through_law_185_2023",
+      "article_coverage": [
+        "306 مكرر (أ)",
+        "306 مكرر (ب)",
+        "336",
+        "341"
+      ]
     },
     {
       "priority_rank": 10,
@@ -593,5 +621,5 @@
       "data_status": "source_checked_relations_page_text_not_ingested"
     }
   ],
-  "known_gap": "This first ranking has 33 high-priority law entries across common citizen domains. It is intentionally not described as all Egyptian laws. Next expansion should discover the direct source pages for entries marked source_discovery_pending, then add topic-level articles, amendments, implementing regulations, and government service pathways before lower-frequency specialist legislation."
+  "known_gap": "Priority work completed this round for selected Law 164/2025 rent articles and Law 58/1937 fraud, breach of trust and harassment provisions. Next, expand common consumer provisions and keep criminal-procedure answers tied to the transition date for Law 174/2025; then ingest selected civil obligations and identity/property statutes from primary texts."
 }

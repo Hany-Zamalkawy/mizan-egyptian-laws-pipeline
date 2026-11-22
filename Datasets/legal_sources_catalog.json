@@ -1,6 +1,6 @@
 {
   "catalog_version": "1.0",
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-22",
   "selection_policy": "Prefer Egyptian government portals and the Official Gazette for primary texts. Use Manshurat as a legal-document index or secondary mirror only when an official text is unavailable; preserve the issuing authority and publication reference.",
   "sources": [
     {
@@ -185,9 +185,9 @@
     },
     {
       "name_ar": "بوابة مصلحة الضرائب - نسخة القانون المدني 131 لسنة 1948",
-      "coverage": "نسخة عربية من القانون المدني، ومنها المواد 147 إلى 149",
+      "coverage": "نسخة عربية من القانون المدني 131 لسنة 1948، ومنها مواد الإيجار 558 و563 و565 و567.",
       "source_tier": "government_hosted_law_copy",
-      "notes": "نسخة مستضافة على نطاق حكومي؛ طابق النص والتعديلات مع الجريدة الرسمية عند الحاجة.",
+      "notes": "نسخة مستضافة على نطاق حكومي؛ طابق النص والتعديلات والقوانين الخاصة عند تطبيق مواد الإيجار.",
       "url": "https://portal.eta.gov.eg/sites/default/files/2024-10/law-131-1948.pdf",
       "source_id": "eta_civil_code_copy",
       "organization_ar": "مصلحة الضرائب المصرية"
@@ -291,6 +291,61 @@
       "source_tier": "official_religious_institution_guidance",
       "coverage": "إرشادات تفسيرية عن نفقة العدة والمتعة ونفقة الأولاد في ضوء القانون المصري.",
       "notes": "إرشاد رسمي لا يحل محل نص القانون أو الحكم القضائي؛ ميّز بين الرأي الإرشادي والتقدير الملزم في النزاع."
+    },
+    {
+      "source_id": "rent_law_164_2025_official_gazette",
+      "name_ar": "القانون 164 لسنة 2025 - الجريدة الرسمية",
+      "organization_ar": "الهيئة العامة لشئون المطابع الأميرية؛ أرشيف الجريدة الرسمية بالهيئة العامة للاستعلامات",
+      "url": "https://mediadr.sis.gov.eg/xmlui/bitstream/handle/123456789/105149/OG31_20250804_2885.pdf?isAllowed=y&sequence=2",
+      "official_text_url": "https://www.alamiria.com/Sec/TashTxt?id=WAxK4jFHfTk%3D",
+      "source_tier": "official_gazette_and_official_legislation_portal",
+      "coverage": "القانون 164 لسنة 2025، المواد 1 إلى 10، الجريدة الرسمية العدد 31 مكرر بتاريخ 4 أغسطس 2025.",
+      "notes": "اقرأ مع القانونين 49 لسنة 1977 و136 لسنة 1981 وقرارات مجلس الوزراء التنفيذية والتعديلات والقرارات اللاحقة."
+    },
+    {
+      "source_id": "cabinet_housing_updates",
+      "name_ar": "رئاسة مجلس الوزراء - قرارات وبيانات الإسكان",
+      "organization_ar": "رئاسة مجلس الوزراء المصرية",
+      "url": "https://cabinet.gov.eg/",
+      "source_tier": "primary_government_announcement",
+      "coverage": "إعلانات قرارات مجلس الوزراء المتعلقة بتنفيذ المادة 8 من القانون 164 لسنة 2025 وتمديد مواعيد طلب الوحدات البديلة.",
+      "notes": "ميّز بين إعلان الموافقة على مشروع قرار وبين نص القرار المنشور بالجريدة الرسمية؛ تحقق من النسخة المنشورة قبل تقرير إجراء نافذ."
+    },
+    {
+      "source_id": "manshurat_penal_code_58_1937",
+      "name_ar": "قانون العقوبات رقم 58 لسنة 1937 - منشورات قانونية",
+      "organization_ar": "منشورات قانونية (مستودع تشريعي غير حكومي)",
+      "url": "https://manshurat.org/node/14677",
+      "source_tier": "secondary_consolidated_legal_repository",
+      "coverage": "مواد مختارة من قانون العقوبات، ومنها النصب وخيانة الأمانة والتحرش؛ النص المدمج يحيل لبعض التعديلات.",
+      "notes": "مصدر ثانوي للنص المدمج. طابق كل مادة مع الجريدة الرسمية الخاصة بالتعديل، خصوصًا المواد 306 مكرر أ وب المعدلة بالقانونين 141 لسنة 2021 و185 لسنة 2023."
+    },
+    {
+      "source_id": "sis_gazette_penal_amendment_185_2023",
+      "name_ar": "القانون 185 لسنة 2023 بتعديل قانون العقوبات - الجريدة الرسمية",
+      "organization_ar": "الهيئة العامة لشئون المطابع الأميرية؛ أرشيف الجريدة الرسمية بالهيئة العامة للاستعلامات",
+      "url": "https://mediadr.sis.gov.eg/bitstream/handle/123456789/49252/OG48_20231204_0120.pdf?isAllowed=y&sequence=2",
+      "source_tier": "official_gazette",
+      "coverage": "الجريدة الرسمية العدد 48 مكرر (ب) بتاريخ 4 ديسمبر 2023، وتعديل المواد 306 مكرر أ وب و309 مكرر ب من قانون العقوبات.",
+      "notes": "مصدر أولي لتعديل 185 لسنة 2023. اقرأه مع قانون 141 لسنة 2021 والنص المدمج لباقي المواد."
+    },
+    {
+      "source_id": "fra_hosted_gazette_penal_amendment_141_2021",
+      "name_ar": "القانون 141 لسنة 2021 بتعديل قانون العقوبات - نسخة حكومية مستضافة",
+      "organization_ar": "الهيئة العامة للرقابة المالية (مستضيف لنسخة الجريدة الرسمية)",
+      "url": "https://fra.gov.eg/wp-content/uploads/2022/05/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B5%D9%83%D9%88%D9%83-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AF%D9%8A%D8%A9-1-1.pdf",
+      "source_tier": "government_hosted_official_gazette_copy",
+      "coverage": "القانون 141 لسنة 2021 المنشور بالجريدة الرسمية العدد 32 مكرر (أ) بتاريخ 15 أغسطس 2021، المعدل للمادتين 306 مكرر أ وب من قانون العقوبات.",
+      "notes": "نسخة الجريدة الرسمية مستضافة لدى جهة حكومية. المادة 306 مكرر أ وب تم تعديلها لاحقًا بالقانون 185 لسنة 2023؛ استخدم النص اللاحق للمادة أ والفقرة الثانية من ب."
+    },
+    {
+      "source_id": "wipo_egypt_penal_code_58_1937",
+      "name_ar": "WIPO Lex - قانون العقوبات المصري 58 لسنة 1937",
+      "organization_ar": "المنظمة العالمية للملكية الفكرية",
+      "url": "https://www.wipo.int/wipolex/ar/legislation/details/19869",
+      "source_tier": "intergovernmental_legal_database",
+      "coverage": "نسخة عربية مساعدة من قانون العقوبات، مع نسخة مفهرسة تاريخيًا وفق تعديلات حتى 2018.",
+      "notes": "ليست نسخة مدمجة حديثة؛ لا تعتمدها منفردة للمواد التي عدلت بعد 2018. طابق مع الجريدة الرسمية والتعديلات اللاحقة."
     }
   ]
 }
