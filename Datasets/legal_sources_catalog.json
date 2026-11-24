@@ -409,6 +409,25 @@
       "source_tier": "government_announcement_with_law_text",
       "coverage": "خبر 7 يونيو 2026 ونص القانون 11 لسنة 2026 المعدل للمادة 111 من قانون التأمينات.",
       "notes": "مصدر حكومي يورد النص؛ طابقه مع صورة الجريدة الرسمية."
+    },
+    {
+      "source_id": "nosi_work_injury_service",
+      "name_ar": "الهيئة القومية للتأمين الاجتماعي - إخطار إصابة العمل",
+      "organization_ar": "الهيئة القومية للتأمين الاجتماعي",
+      "url": "https://www.nosi.gov.eg/ar/Services/Pages/Info/%D8%A5%D8%AE%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A8%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D9%85%D9%88%D8%A7%D9%81%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%A7%D8%B2%D9%85%D8%A9.aspx",
+      "form_url": "https://www.nosi.gov.eg/ar/Services/SiteAssets/Pages/Info/%D8%A5%D8%AE%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D8%A8%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D9%85%D9%88%D8%A7%D9%81%D8%A7%D8%AA%D9%87-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%A7%D8%B2%D9%85%D8%A9/22%20-%D8%A5%D8%AE%D8%B7%D8%A7%D8%B1%20%20%D9%88%D9%82%D9%88%D8%B9%20%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9%20%D8%B9%D9%85%D9%84%20.pdf",
+      "source_tier": "official_agency_service_guidance",
+      "coverage": "شرح خدمة إخطار الهيئة بإصابة العمل، تصنيف المستندات حسب نوع الإصابة، وإرشادات النموذج.",
+      "notes": "إرشاد إداري رسمي وليس نصًا تشريعيًا؛ تحقق من المتطلبات الحالية والفئة ومكان الإصابة لدى مكتب التأمينات."
+    },
+    {
+      "source_id": "mof_gazette_law_148_2019",
+      "name_ar": "الجريدة الرسمية - القانون 148 لسنة 2019 (نسخة مستضافة بوزارة المالية)",
+      "organization_ar": "وزارة المالية المصرية - مستضيف نسخة الجريدة الرسمية",
+      "url": "https://media.mof.gov.eg/mof-prd/2076_aad99154bd.pdf?response-content-disposition=attachment%3B+filename%3D%222076.pdf%22",
+      "source_tier": "official_gazette_hosted_copy",
+      "coverage": "قانون التأمينات الاجتماعية والمعاشات 148 لسنة 2019، الجريدة الرسمية العدد 33 مكرر (أ) بتاريخ 19 أغسطس 2019، بما فيها مواد إصابات العمل 49-63.",
+      "notes": "نسخة العدد الرسمي المستضافة لدى وزارة المالية؛ راجع الاستدراكات والتعديلات اللاحقة قبل تقرير حكم نافذ."
     }
   ]
 }

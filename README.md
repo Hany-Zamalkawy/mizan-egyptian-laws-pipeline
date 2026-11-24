@@ -326,3 +326,6 @@ Expansion (2026-11-11): added Article 1 of Law 4/1996 on the scope of civil-law 
 
 
 Expansion (2026-11-24): expanded Social Insurance Law 148/2019 coverage with Articles 21, 22, 25, 129, and 130 and the 2026 Law 11 amendment relationship for Article 111. The 300 actual-month early-retirement threshold applies since 1 January 2025. Article 111 concerns system financing, not individual eligibility. The 2019 NOSI PDF is the original edition, not a consolidated text; verify later Gazette amendments.
+
+
+Expansion (2026-11-24, Social Insurance injury tranche): added Law 148/2019 Articles 49-53 and 63 on wage compensation, transport costs, and permanent disability/death benefits. Added the NOSI work-injury notice and document checklist as a separate official service-guidance record, not as statutory text. Sources include the NOSI service page/form and the Gazette copy hosted by the Ministry of Finance.
