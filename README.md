@@ -323,3 +323,6 @@ Expansion (2026-11-11): added Civil Code Article 157 on remedies for nonperforma
 
 
 Expansion (2026-11-11): added Article 1 of Law 4/1996 on the scope of civil-law tenancy rules and Article 24 of Criminal Procedure Law 150/1950 on receiving and forwarding criminal reports. The criminal-procedure record is explicitly transitional until 1 October 2027 under Law 160/2026; check special rent rules and amendments for every case.
+
+
+Expansion (2026-11-24): expanded Social Insurance Law 148/2019 coverage with Articles 21, 22, 25, 129, and 130 and the 2026 Law 11 amendment relationship for Article 111. The 300 actual-month early-retirement threshold applies since 1 January 2025. Article 111 concerns system financing, not individual eligibility. The 2019 NOSI PDF is the original edition, not a consolidated text; verify later Gazette amendments.

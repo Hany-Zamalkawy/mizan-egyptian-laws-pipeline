@@ -1,6 +1,6 @@
 {
   "catalog_version": "1.0",
-  "updated_on": "2026-11-22",
+  "updated_on": "2026-11-24",
   "selection_policy": "Prefer Egyptian government portals and the Official Gazette for primary texts. Use Manshurat as a legal-document index or secondary mirror only when an official text is unavailable; preserve the issuing authority and publication reference.",
   "sources": [
     {
@@ -391,6 +391,24 @@
       "source_tier": "primary_government_announcement",
       "coverage": "شرح موجز لغرض التعديل وإجراءات المركبات المهملة والمتروكة.",
       "notes": "إعلان حكومي شارح لا يحل محل نص القانون والجريدة الرسمية."
+    },
+    {
+      "source_id": "nosi_law_148_2019_official_text",
+      "name_ar": "الهيئة القومية للتأمين الاجتماعي - قانون 148 لسنة 2019",
+      "organization_ar": "الهيئة القومية للتأمين الاجتماعي",
+      "url": "https://www.nosi.gov.eg/ar/Lists/NOSILibrary/2-12-2019%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF.pdf",
+      "source_tier": "official_agency_hosted_law_text",
+      "coverage": "النص الأصلي المنشور لقانون 148 لسنة 2019، المواد 21 و22 و25 و129 و130؛ طبعة سبتمبر 2019.",
+      "notes": "نسخة أصلية وليست نصًا مدمجًا بكل التعديلات؛ تحقق من الجريدة الرسمية لأي تعديل لاحق."
+    },
+    {
+      "source_id": "sis_law_11_2026_social_insurance",
+      "name_ar": "الهيئة العامة للاستعلامات - القانون 11 لسنة 2026",
+      "organization_ar": "الهيئة العامة للاستعلامات",
+      "url": "https://sis.gov.eg/ar/الرئاسة/شئون-داخلية/القرارات-الرئاسية/الرئيس-السيسي-يصدق-على-تعديل-بعض-أحكام-قانون-التأمينات-الاجتماعية-والمعاشات/",
+      "source_tier": "government_announcement_with_law_text",
+      "coverage": "خبر 7 يونيو 2026 ونص القانون 11 لسنة 2026 المعدل للمادة 111 من قانون التأمينات.",
+      "notes": "مصدر حكومي يورد النص؛ طابقه مع صورة الجريدة الرسمية."
     }
   ]
 }
