@@ -372,7 +372,8 @@
       "url": "https://mof.gov.eg/ar/legislation/legislation-5fe86ae87bfc600007cc0271",
       "source_tier": "primary_government_legislation_index",
       "coverage": "سجل حكومي للقانون 25 لسنة 1968 بشأن الإثبات في المواد المدنية والتجارية؛ يعرض الحالة ساريًا ورابط تنزيل النص.",
-      "notes": "توضح الوزارة أن منشوراتها الإلكترونية إرشادية وأن المرجع القانوني هو الجريدة الرسمية. استخدم سجل الوزارة للتحقق من بيانات القانون والحالة، والجريدة الرسمية للتحقق الحرفي والتعديلات."
+      "notes": "تثبت الصفحة الحكومية حالة القانون وتوفر رابط تنزيل النص؛ تذكر أن النشر الإلكتروني إرشادي وأن مرجع النص هو الجريدة الرسمية. استخدم ملف الوزارة وWIPO Lex للمقابلة، وتحقق من التعديلات والنص الرسمي عند الحاجة.",
+      "official_text_pdf_url": "https://media.mof.gov.eg/mof-prd/1299_705e8a7b67.pdf?response-content-disposition=attachment%3B+filename%3D%221299.pdf%22%3B+filename%2A%3DUTF-8%27%271299.pdf"
     },
     {
       "source_id": "cc_traffic_amendment_17_2024",

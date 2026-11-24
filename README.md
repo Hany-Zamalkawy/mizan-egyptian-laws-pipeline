@@ -335,3 +335,6 @@ Expansion (2026-11-24, Social Insurance survivors tranche): added Articles 98-10
 
 
 Expansion (2026-11-24, Social Insurance enrollment tranche): added Articles 2, 1/9, 19, 117, and 136 on self-employed and informal-worker coverage, chosen insurable income, category-based contributions, income changes, and self-registration. Added NOSI service guidance for informal workers, construction/quarry/salt workers, Egyptians working abroad, and employer establishment files. Enrollment procedures and document lists remain distinct from statutory summaries and are date-sensitive.
+
+
+Expansion (2026-11-24, Evidence Law tranche): added Articles 62-63 on written commencement of proof and exceptions allowing witness evidence, plus Articles 103-104 on judicial admissions and their indivisibility rule. Refreshed the priority entry to the Ministry of Finance law index and added its hosted text PDF for cross-checking; caveats retain the Official Gazette as the legal publication reference.

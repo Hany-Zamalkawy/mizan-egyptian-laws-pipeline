@@ -303,12 +303,15 @@
       "common_user_questions": [
         "إثبات الدين أو العقد",
         "حجية الرسائل والمحررات",
-        "الشهادة واليمين"
+        "الشهادة واليمين",
+        "متى يمكن استخدام الشهود بدل المستند المكتوب؟",
+        "ما قيمة الرسائل أو الكتابات الجزئية في إثبات الدين؟",
+        "ما أثر الاعتراف أمام المحكمة؟"
       ],
-      "source_url": "https://manshurat.org/node/32240",
-      "source_authority": "secondary_legal_repository",
-      "consolidation_status": "amended_check_latest_text_and_special_rules",
-      "data_status": "selected_official_documents_and_certified_copies_articles_added",
+      "source_url": "https://mof.gov.eg/ar/legislation/legislation-5fe86ae87bfc600007cc0271",
+      "source_authority": "official_ministry_index_and_hosted_text_wipo_crosscheck",
+      "consolidation_status": "ministry_lists_law_active; original_text_and_selected_amendments_cross_checked; verify_gazette_for_amendments",
+      "data_status": "selected_articles_1_10_11_12_13_14_15_62_63_103_104",
       "article_coverage": [
         "1",
         "10",
@@ -316,9 +319,13 @@
         "12",
         "13",
         "14",
-        "15"
+        "15",
+        "62",
+        "63",
+        "103",
+        "104"
       ],
-      "source_limit": "وزارة المالية تعرض القانون كسارٍ وتحيل إلى الجريدة الرسمية كمرجع قانوني؛ سجل WIPO يعرض نص القانون الأصلي ولا يثبت وحده دمج كل تعديلاته."
+      "source_limit": "وزارة المالية تعرض القانون كسارٍ وتحيل إلى الجريدة الرسمية كمرجع قانوني؛ ملف PDF المستضاف حكوميًا ونسخة WIPO تساعدان في المقابلة ولا تثبتان وحدهما دمج كل التعديلات."
     },
     {
       "priority_rank": 14,
