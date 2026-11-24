@@ -329,3 +329,6 @@ Expansion (2026-11-24): expanded Social Insurance Law 148/2019 coverage with Art
 
 
 Expansion (2026-11-24, Social Insurance injury tranche): added Law 148/2019 Articles 49-53 and 63 on wage compensation, transport costs, and permanent disability/death benefits. Added the NOSI work-injury notice and document checklist as a separate official service-guidance record, not as statutory text. Sources include the NOSI service page/form and the Gazette copy hosted by the Ministry of Finance.
+
+
+Expansion (2026-11-24, Social Insurance survivors tranche): added Articles 98-105 on survivor eligibility, family-member conditions, pension priority/combination and suspension, plus Articles 32-34 on funeral costs, death grant, and missing-person allowance. Added NOSI survivor-service guidance and separated procedural documents from statute summaries.
