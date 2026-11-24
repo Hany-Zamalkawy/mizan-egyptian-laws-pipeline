@@ -332,3 +332,6 @@ Expansion (2026-11-24, Social Insurance injury tranche): added Law 148/2019 Arti
 
 
 Expansion (2026-11-24, Social Insurance survivors tranche): added Articles 98-105 on survivor eligibility, family-member conditions, pension priority/combination and suspension, plus Articles 32-34 on funeral costs, death grant, and missing-person allowance. Added NOSI survivor-service guidance and separated procedural documents from statute summaries.
+
+
+Expansion (2026-11-24, Social Insurance enrollment tranche): added Articles 2, 1/9, 19, 117, and 136 on self-employed and informal-worker coverage, chosen insurable income, category-based contributions, income changes, and self-registration. Added NOSI service guidance for informal workers, construction/quarry/salt workers, Egyptians working abroad, and employer establishment files. Enrollment procedures and document lists remain distinct from statutory summaries and are date-sensitive.
